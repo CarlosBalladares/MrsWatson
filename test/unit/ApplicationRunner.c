@@ -34,7 +34,7 @@
 #include <stdio.h>
 
 static const char *kApplicationRunnerOutputFolder = "out";
-static const int kApplicationRunnerWaitTimeoutInMs = 1000;
+#define kApplicationRunnerWaitTimeoutInMs  1000;
 
 CharString buildTestArgumentString(const char *arguments, ...) {
   CharString formattedArguments;
